@@ -31,6 +31,7 @@ class Program
 
         foreach (var item in titles)
         {
+            Thread.Sleep(2000);
             Console.WriteLine(item.Text);
         }
 
